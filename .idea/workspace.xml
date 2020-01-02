@@ -2,7 +2,40 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="CprogramDemo02" targetName="demo01" />
+      <config projectName="CprogramDemo02" targetName="demo23" />
+      <config projectName="CprogramDemo02" targetName="demo02" />
+      <config projectName="CprogramDemo02" targetName="demo24" />
+      <config projectName="CprogramDemo02" targetName="demo21" />
+      <config projectName="CprogramDemo02" targetName="demo22" />
+      <config projectName="CprogramDemo02" targetName="demo20" />
+      <config projectName="CprogramDemo02" targetName="demo18" />
+      <config projectName="CprogramDemo02" targetName="demo19" />
+      <config projectName="CprogramDemo02" targetName="demo16" />
+      <config projectName="CprogramDemo02" targetName="demo17" />
+      <config projectName="CprogramDemo02" targetName="demo14" />
+      <config projectName="CprogramDemo02" targetName="demo15" />
       <config projectName="CprogramDemo02" targetName="CprogramDemo02" />
+      <config projectName="CprogramDemo02" targetName="demo12" />
+      <config projectName="CprogramDemo02" targetName="demo13" />
+      <config projectName="CprogramDemo02" targetName="demo10" />
+      <config projectName="CprogramDemo02" targetName="demo32" />
+      <config projectName="CprogramDemo02" targetName="demo11" />
+      <config projectName="CprogramDemo02" targetName="demo33" />
+      <config projectName="CprogramDemo02" targetName="demo30" />
+      <config projectName="CprogramDemo02" targetName="demo31" />
+      <config projectName="CprogramDemo02" targetName="demo09" />
+      <config projectName="CprogramDemo02" targetName="demo07" />
+      <config projectName="CprogramDemo02" targetName="demo29" />
+      <config projectName="CprogramDemo02" targetName="demo08" />
+      <config projectName="CprogramDemo02" targetName="demo05" />
+      <config projectName="CprogramDemo02" targetName="demo27" />
+      <config projectName="CprogramDemo02" targetName="demo06" />
+      <config projectName="CprogramDemo02" targetName="demo28" />
+      <config projectName="CprogramDemo02" targetName="demo03" />
+      <config projectName="CprogramDemo02" targetName="demo25" />
+      <config projectName="CprogramDemo02" targetName="demo04" />
+      <config projectName="CprogramDemo02" targetName="demo26" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,12 +45,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d094471c-7124-4ee4-9727-2f1a4edb1320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo01/demo01.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/demo02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/demo22.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo02/demo01.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo02/demo02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo02/demo03_swap/swapDemo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/demo01.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/demo02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/demo03.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/demo04.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/demo05.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/demo06.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/demo07.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/demo08.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo04/demo01.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo04/demo02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo04/demo03.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo04/demo04.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo04/demo05.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/demo01.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/demo02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/demo03.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/demo04.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/demo05.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/demo06.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/demo07.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo01.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo03.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo04.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo05.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo06.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo07.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo08.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/demo09.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06/test/a.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CprogramDemo02.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CprogramDemo02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CprogramDemo02.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CprogramDemo02.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,31 +113,245 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1TKnHkqlFyo7r047TnwGDDc9wlr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo06/test" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo06/test" />
+      <recent name="$PROJECT_DIR$/demo06" />
+      <recent name="$PROJECT_DIR$/demo05" />
+      <recent name="$PROJECT_DIR$/demo04" />
+      <recent name="$PROJECT_DIR$/demo03" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.demo27">
     <configuration name="CprogramDemo02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="CprogramDemo02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="CprogramDemo02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo01">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo02">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo05">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo06">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo07" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo07">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo08" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo08">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo09" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo09">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo11">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo14" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo14">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo15">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo16" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo16" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo16">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo17" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo17" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo17">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo18" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo18" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo18">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo19" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo19" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo19">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo20" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo20" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo20">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo21" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo21" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo21">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo22" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo22" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo22">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo23" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo23" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo23">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo24" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo24" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo24">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo25" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo25" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo25">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo26" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo26" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo26">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo27" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo27" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo27">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo28" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo28" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo28">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo29" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo29" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo29">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo30" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo30" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo30">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo31" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo31" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo31">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo32" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo32" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo32">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo33" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CprogramDemo02" TARGET_NAME="demo33" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CprogramDemo02" RUN_TARGET_NAME="demo33">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.CprogramDemo02" />
+      <item itemvalue="CMake Application.demo01" />
+      <item itemvalue="CMake Application.demo02" />
+      <item itemvalue="CMake Application.demo03" />
+      <item itemvalue="CMake Application.demo04" />
+      <item itemvalue="CMake Application.demo05" />
+      <item itemvalue="CMake Application.demo06" />
+      <item itemvalue="CMake Application.demo07" />
+      <item itemvalue="CMake Application.demo08" />
+      <item itemvalue="CMake Application.demo09" />
+      <item itemvalue="CMake Application.demo10" />
+      <item itemvalue="CMake Application.demo11" />
+      <item itemvalue="CMake Application.demo12" />
+      <item itemvalue="CMake Application.demo13" />
+      <item itemvalue="CMake Application.demo14" />
+      <item itemvalue="CMake Application.demo15" />
+      <item itemvalue="CMake Application.demo16" />
+      <item itemvalue="CMake Application.demo17" />
+      <item itemvalue="CMake Application.demo18" />
+      <item itemvalue="CMake Application.demo19" />
+      <item itemvalue="CMake Application.demo20" />
+      <item itemvalue="CMake Application.demo21" />
+      <item itemvalue="CMake Application.demo22" />
+      <item itemvalue="CMake Application.demo23" />
+      <item itemvalue="CMake Application.demo24" />
+      <item itemvalue="CMake Application.demo25" />
+      <item itemvalue="CMake Application.demo26" />
+      <item itemvalue="CMake Application.demo27" />
+      <item itemvalue="CMake Application.demo28" />
+      <item itemvalue="CMake Application.demo29" />
+      <item itemvalue="CMake Application.demo30" />
+      <item itemvalue="CMake Application.demo31" />
+      <item itemvalue="CMake Application.demo32" />
+      <item itemvalue="CMake Application.demo33" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,12 +373,77 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
             <State />
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="584" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577929180380">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="584" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1577929180380" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577859597134">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577859597134" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1577780648422">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577780648422" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1577897934800">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577897934800" />
+    <state width="827" height="251" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577843205312" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1577897934798">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577897934798" />
+    <state width="827" height="251" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577843205312" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1577897934797">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577897934797" />
+    <state width="827" height="251" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577843205308" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1577897934799">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577897934799" />
+    <state width="827" height="251" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577843205312" />
+    <state width="1680" height="372" key="GridCell.Tab.1.bottom" timestamp="1577795049907">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="372" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577795049907" />
+    <state width="1680" height="372" key="GridCell.Tab.1.center" timestamp="1577795049906">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="372" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577795049906" />
+    <state width="1680" height="372" key="GridCell.Tab.1.left" timestamp="1577795049906">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="372" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577795049906" />
+    <state width="1680" height="372" key="GridCell.Tab.1.right" timestamp="1577795049907">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="372" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577795049907" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1577892985077">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1577892985077" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1577897096085">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1577897096085" />
   </component>
 </project>

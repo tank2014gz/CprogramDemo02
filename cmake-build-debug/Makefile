@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,435 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named demo33
+
+# Build rule for target.
+demo33: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo33
+.PHONY : demo33
+
+# fast build rule for target.
+demo33/fast:
+	$(MAKE) -f CMakeFiles/demo33.dir/build.make CMakeFiles/demo33.dir/build
+.PHONY : demo33/fast
+
+#=============================================================================
+# Target rules for targets named demo32
+
+# Build rule for target.
+demo32: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo32
+.PHONY : demo32
+
+# fast build rule for target.
+demo32/fast:
+	$(MAKE) -f CMakeFiles/demo32.dir/build.make CMakeFiles/demo32.dir/build
+.PHONY : demo32/fast
+
+#=============================================================================
+# Target rules for targets named demo31
+
+# Build rule for target.
+demo31: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo31
+.PHONY : demo31
+
+# fast build rule for target.
+demo31/fast:
+	$(MAKE) -f CMakeFiles/demo31.dir/build.make CMakeFiles/demo31.dir/build
+.PHONY : demo31/fast
+
+#=============================================================================
+# Target rules for targets named demo30
+
+# Build rule for target.
+demo30: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo30
+.PHONY : demo30
+
+# fast build rule for target.
+demo30/fast:
+	$(MAKE) -f CMakeFiles/demo30.dir/build.make CMakeFiles/demo30.dir/build
+.PHONY : demo30/fast
+
+#=============================================================================
+# Target rules for targets named demo28
+
+# Build rule for target.
+demo28: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo28
+.PHONY : demo28
+
+# fast build rule for target.
+demo28/fast:
+	$(MAKE) -f CMakeFiles/demo28.dir/build.make CMakeFiles/demo28.dir/build
+.PHONY : demo28/fast
+
+#=============================================================================
+# Target rules for targets named demo27
+
+# Build rule for target.
+demo27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo27
+.PHONY : demo27
+
+# fast build rule for target.
+demo27/fast:
+	$(MAKE) -f CMakeFiles/demo27.dir/build.make CMakeFiles/demo27.dir/build
+.PHONY : demo27/fast
+
+#=============================================================================
+# Target rules for targets named demo26
+
+# Build rule for target.
+demo26: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo26
+.PHONY : demo26
+
+# fast build rule for target.
+demo26/fast:
+	$(MAKE) -f CMakeFiles/demo26.dir/build.make CMakeFiles/demo26.dir/build
+.PHONY : demo26/fast
+
+#=============================================================================
+# Target rules for targets named demo23
+
+# Build rule for target.
+demo23: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo23
+.PHONY : demo23
+
+# fast build rule for target.
+demo23/fast:
+	$(MAKE) -f CMakeFiles/demo23.dir/build.make CMakeFiles/demo23.dir/build
+.PHONY : demo23/fast
+
+#=============================================================================
+# Target rules for targets named demo19
+
+# Build rule for target.
+demo19: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo19
+.PHONY : demo19
+
+# fast build rule for target.
+demo19/fast:
+	$(MAKE) -f CMakeFiles/demo19.dir/build.make CMakeFiles/demo19.dir/build
+.PHONY : demo19/fast
+
+#=============================================================================
+# Target rules for targets named demo17
+
+# Build rule for target.
+demo17: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo17
+.PHONY : demo17
+
+# fast build rule for target.
+demo17/fast:
+	$(MAKE) -f CMakeFiles/demo17.dir/build.make CMakeFiles/demo17.dir/build
+.PHONY : demo17/fast
+
+#=============================================================================
+# Target rules for targets named demo01
+
+# Build rule for target.
+demo01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo01
+.PHONY : demo01
+
+# fast build rule for target.
+demo01/fast:
+	$(MAKE) -f CMakeFiles/demo01.dir/build.make CMakeFiles/demo01.dir/build
+.PHONY : demo01/fast
+
+#=============================================================================
+# Target rules for targets named demo12
+
+# Build rule for target.
+demo12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo12
+.PHONY : demo12
+
+# fast build rule for target.
+demo12/fast:
+	$(MAKE) -f CMakeFiles/demo12.dir/build.make CMakeFiles/demo12.dir/build
+.PHONY : demo12/fast
+
+#=============================================================================
+# Target rules for targets named demo20
+
+# Build rule for target.
+demo20: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo20
+.PHONY : demo20
+
+# fast build rule for target.
+demo20/fast:
+	$(MAKE) -f CMakeFiles/demo20.dir/build.make CMakeFiles/demo20.dir/build
+.PHONY : demo20/fast
+
+#=============================================================================
+# Target rules for targets named demo15
+
+# Build rule for target.
+demo15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo15
+.PHONY : demo15
+
+# fast build rule for target.
+demo15/fast:
+	$(MAKE) -f CMakeFiles/demo15.dir/build.make CMakeFiles/demo15.dir/build
+.PHONY : demo15/fast
+
+#=============================================================================
+# Target rules for targets named demo14
+
+# Build rule for target.
+demo14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo14
+.PHONY : demo14
+
+# fast build rule for target.
+demo14/fast:
+	$(MAKE) -f CMakeFiles/demo14.dir/build.make CMakeFiles/demo14.dir/build
+.PHONY : demo14/fast
+
+#=============================================================================
+# Target rules for targets named demo24
+
+# Build rule for target.
+demo24: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo24
+.PHONY : demo24
+
+# fast build rule for target.
+demo24/fast:
+	$(MAKE) -f CMakeFiles/demo24.dir/build.make CMakeFiles/demo24.dir/build
+.PHONY : demo24/fast
+
+#=============================================================================
+# Target rules for targets named demo13
+
+# Build rule for target.
+demo13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo13
+.PHONY : demo13
+
+# fast build rule for target.
+demo13/fast:
+	$(MAKE) -f CMakeFiles/demo13.dir/build.make CMakeFiles/demo13.dir/build
+.PHONY : demo13/fast
+
+#=============================================================================
+# Target rules for targets named demo02
+
+# Build rule for target.
+demo02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo02
+.PHONY : demo02
+
+# fast build rule for target.
+demo02/fast:
+	$(MAKE) -f CMakeFiles/demo02.dir/build.make CMakeFiles/demo02.dir/build
+.PHONY : demo02/fast
+
+#=============================================================================
+# Target rules for targets named demo22
+
+# Build rule for target.
+demo22: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo22
+.PHONY : demo22
+
+# fast build rule for target.
+demo22/fast:
+	$(MAKE) -f CMakeFiles/demo22.dir/build.make CMakeFiles/demo22.dir/build
+.PHONY : demo22/fast
+
+#=============================================================================
+# Target rules for targets named demo06
+
+# Build rule for target.
+demo06: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo06
+.PHONY : demo06
+
+# fast build rule for target.
+demo06/fast:
+	$(MAKE) -f CMakeFiles/demo06.dir/build.make CMakeFiles/demo06.dir/build
+.PHONY : demo06/fast
+
+#=============================================================================
+# Target rules for targets named demo11
+
+# Build rule for target.
+demo11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo11
+.PHONY : demo11
+
+# fast build rule for target.
+demo11/fast:
+	$(MAKE) -f CMakeFiles/demo11.dir/build.make CMakeFiles/demo11.dir/build
+.PHONY : demo11/fast
+
+#=============================================================================
+# Target rules for targets named demo10
+
+# Build rule for target.
+demo10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo10
+.PHONY : demo10
+
+# fast build rule for target.
+demo10/fast:
+	$(MAKE) -f CMakeFiles/demo10.dir/build.make CMakeFiles/demo10.dir/build
+.PHONY : demo10/fast
+
+#=============================================================================
+# Target rules for targets named demo25
+
+# Build rule for target.
+demo25: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo25
+.PHONY : demo25
+
+# fast build rule for target.
+demo25/fast:
+	$(MAKE) -f CMakeFiles/demo25.dir/build.make CMakeFiles/demo25.dir/build
+.PHONY : demo25/fast
+
+#=============================================================================
+# Target rules for targets named demo08
+
+# Build rule for target.
+demo08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo08
+.PHONY : demo08
+
+# fast build rule for target.
+demo08/fast:
+	$(MAKE) -f CMakeFiles/demo08.dir/build.make CMakeFiles/demo08.dir/build
+.PHONY : demo08/fast
+
+#=============================================================================
+# Target rules for targets named demo05
+
+# Build rule for target.
+demo05: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo05
+.PHONY : demo05
+
+# fast build rule for target.
+demo05/fast:
+	$(MAKE) -f CMakeFiles/demo05.dir/build.make CMakeFiles/demo05.dir/build
+.PHONY : demo05/fast
+
+#=============================================================================
+# Target rules for targets named demo21
+
+# Build rule for target.
+demo21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo21
+.PHONY : demo21
+
+# fast build rule for target.
+demo21/fast:
+	$(MAKE) -f CMakeFiles/demo21.dir/build.make CMakeFiles/demo21.dir/build
+.PHONY : demo21/fast
+
+#=============================================================================
+# Target rules for targets named demo04
+
+# Build rule for target.
+demo04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo04
+.PHONY : demo04
+
+# fast build rule for target.
+demo04/fast:
+	$(MAKE) -f CMakeFiles/demo04.dir/build.make CMakeFiles/demo04.dir/build
+.PHONY : demo04/fast
+
+#=============================================================================
+# Target rules for targets named demo16
+
+# Build rule for target.
+demo16: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo16
+.PHONY : demo16
+
+# fast build rule for target.
+demo16/fast:
+	$(MAKE) -f CMakeFiles/demo16.dir/build.make CMakeFiles/demo16.dir/build
+.PHONY : demo16/fast
+
+#=============================================================================
+# Target rules for targets named demo09
+
+# Build rule for target.
+demo09: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo09
+.PHONY : demo09
+
+# fast build rule for target.
+demo09/fast:
+	$(MAKE) -f CMakeFiles/demo09.dir/build.make CMakeFiles/demo09.dir/build
+.PHONY : demo09/fast
+
+#=============================================================================
+# Target rules for targets named demo03
+
+# Build rule for target.
+demo03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo03
+.PHONY : demo03
+
+# fast build rule for target.
+demo03/fast:
+	$(MAKE) -f CMakeFiles/demo03.dir/build.make CMakeFiles/demo03.dir/build
+.PHONY : demo03/fast
+
+#=============================================================================
+# Target rules for targets named demo18
+
+# Build rule for target.
+demo18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo18
+.PHONY : demo18
+
+# fast build rule for target.
+demo18/fast:
+	$(MAKE) -f CMakeFiles/demo18.dir/build.make CMakeFiles/demo18.dir/build
+.PHONY : demo18/fast
+
+#=============================================================================
+# Target rules for targets named demo07
+
+# Build rule for target.
+demo07: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo07
+.PHONY : demo07
+
+# fast build rule for target.
+demo07/fast:
+	$(MAKE) -f CMakeFiles/demo07.dir/build.make CMakeFiles/demo07.dir/build
+.PHONY : demo07/fast
+
+#=============================================================================
+# Target rules for targets named demo29
+
+# Build rule for target.
+demo29: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo29
+.PHONY : demo29
+
+# fast build rule for target.
+demo29/fast:
+	$(MAKE) -f CMakeFiles/demo29.dir/build.make CMakeFiles/demo29.dir/build
+.PHONY : demo29/fast
+
+#=============================================================================
 # Target rules for targets named CprogramDemo02
 
 # Build rule for target.
@@ -122,6 +551,930 @@ CprogramDemo02: cmake_check_build_system
 CprogramDemo02/fast:
 	$(MAKE) -f CMakeFiles/CprogramDemo02.dir/build.make CMakeFiles/CprogramDemo02.dir/build
 .PHONY : CprogramDemo02/fast
+
+demo01/demo01.o: demo01/demo01.c.o
+
+.PHONY : demo01/demo01.o
+
+# target to build an object file
+demo01/demo01.c.o:
+	$(MAKE) -f CMakeFiles/demo01.dir/build.make CMakeFiles/demo01.dir/demo01/demo01.c.o
+.PHONY : demo01/demo01.c.o
+
+demo01/demo01.i: demo01/demo01.c.i
+
+.PHONY : demo01/demo01.i
+
+# target to preprocess a source file
+demo01/demo01.c.i:
+	$(MAKE) -f CMakeFiles/demo01.dir/build.make CMakeFiles/demo01.dir/demo01/demo01.c.i
+.PHONY : demo01/demo01.c.i
+
+demo01/demo01.s: demo01/demo01.c.s
+
+.PHONY : demo01/demo01.s
+
+# target to generate assembly for a file
+demo01/demo01.c.s:
+	$(MAKE) -f CMakeFiles/demo01.dir/build.make CMakeFiles/demo01.dir/demo01/demo01.c.s
+.PHONY : demo01/demo01.c.s
+
+demo01/demo02.o: demo01/demo02.c.o
+
+.PHONY : demo01/demo02.o
+
+# target to build an object file
+demo01/demo02.c.o:
+	$(MAKE) -f CMakeFiles/demo02.dir/build.make CMakeFiles/demo02.dir/demo01/demo02.c.o
+.PHONY : demo01/demo02.c.o
+
+demo01/demo02.i: demo01/demo02.c.i
+
+.PHONY : demo01/demo02.i
+
+# target to preprocess a source file
+demo01/demo02.c.i:
+	$(MAKE) -f CMakeFiles/demo02.dir/build.make CMakeFiles/demo02.dir/demo01/demo02.c.i
+.PHONY : demo01/demo02.c.i
+
+demo01/demo02.s: demo01/demo02.c.s
+
+.PHONY : demo01/demo02.s
+
+# target to generate assembly for a file
+demo01/demo02.c.s:
+	$(MAKE) -f CMakeFiles/demo02.dir/build.make CMakeFiles/demo02.dir/demo01/demo02.c.s
+.PHONY : demo01/demo02.c.s
+
+demo01/demo22.o: demo01/demo22.c.o
+
+.PHONY : demo01/demo22.o
+
+# target to build an object file
+demo01/demo22.c.o:
+	$(MAKE) -f CMakeFiles/demo02.dir/build.make CMakeFiles/demo02.dir/demo01/demo22.c.o
+.PHONY : demo01/demo22.c.o
+
+demo01/demo22.i: demo01/demo22.c.i
+
+.PHONY : demo01/demo22.i
+
+# target to preprocess a source file
+demo01/demo22.c.i:
+	$(MAKE) -f CMakeFiles/demo02.dir/build.make CMakeFiles/demo02.dir/demo01/demo22.c.i
+.PHONY : demo01/demo22.c.i
+
+demo01/demo22.s: demo01/demo22.c.s
+
+.PHONY : demo01/demo22.s
+
+# target to generate assembly for a file
+demo01/demo22.c.s:
+	$(MAKE) -f CMakeFiles/demo02.dir/build.make CMakeFiles/demo02.dir/demo01/demo22.c.s
+.PHONY : demo01/demo22.c.s
+
+demo02/demo01.o: demo02/demo01.c.o
+
+.PHONY : demo02/demo01.o
+
+# target to build an object file
+demo02/demo01.c.o:
+	$(MAKE) -f CMakeFiles/demo03.dir/build.make CMakeFiles/demo03.dir/demo02/demo01.c.o
+.PHONY : demo02/demo01.c.o
+
+demo02/demo01.i: demo02/demo01.c.i
+
+.PHONY : demo02/demo01.i
+
+# target to preprocess a source file
+demo02/demo01.c.i:
+	$(MAKE) -f CMakeFiles/demo03.dir/build.make CMakeFiles/demo03.dir/demo02/demo01.c.i
+.PHONY : demo02/demo01.c.i
+
+demo02/demo01.s: demo02/demo01.c.s
+
+.PHONY : demo02/demo01.s
+
+# target to generate assembly for a file
+demo02/demo01.c.s:
+	$(MAKE) -f CMakeFiles/demo03.dir/build.make CMakeFiles/demo03.dir/demo02/demo01.c.s
+.PHONY : demo02/demo01.c.s
+
+demo02/demo02.o: demo02/demo02.c.o
+
+.PHONY : demo02/demo02.o
+
+# target to build an object file
+demo02/demo02.c.o:
+	$(MAKE) -f CMakeFiles/demo04.dir/build.make CMakeFiles/demo04.dir/demo02/demo02.c.o
+.PHONY : demo02/demo02.c.o
+
+demo02/demo02.i: demo02/demo02.c.i
+
+.PHONY : demo02/demo02.i
+
+# target to preprocess a source file
+demo02/demo02.c.i:
+	$(MAKE) -f CMakeFiles/demo04.dir/build.make CMakeFiles/demo04.dir/demo02/demo02.c.i
+.PHONY : demo02/demo02.c.i
+
+demo02/demo02.s: demo02/demo02.c.s
+
+.PHONY : demo02/demo02.s
+
+# target to generate assembly for a file
+demo02/demo02.c.s:
+	$(MAKE) -f CMakeFiles/demo04.dir/build.make CMakeFiles/demo04.dir/demo02/demo02.c.s
+.PHONY : demo02/demo02.c.s
+
+demo02/demo03_swap/swapDemo.o: demo02/demo03_swap/swapDemo.c.o
+
+.PHONY : demo02/demo03_swap/swapDemo.o
+
+# target to build an object file
+demo02/demo03_swap/swapDemo.c.o:
+	$(MAKE) -f CMakeFiles/demo05.dir/build.make CMakeFiles/demo05.dir/demo02/demo03_swap/swapDemo.c.o
+.PHONY : demo02/demo03_swap/swapDemo.c.o
+
+demo02/demo03_swap/swapDemo.i: demo02/demo03_swap/swapDemo.c.i
+
+.PHONY : demo02/demo03_swap/swapDemo.i
+
+# target to preprocess a source file
+demo02/demo03_swap/swapDemo.c.i:
+	$(MAKE) -f CMakeFiles/demo05.dir/build.make CMakeFiles/demo05.dir/demo02/demo03_swap/swapDemo.c.i
+.PHONY : demo02/demo03_swap/swapDemo.c.i
+
+demo02/demo03_swap/swapDemo.s: demo02/demo03_swap/swapDemo.c.s
+
+.PHONY : demo02/demo03_swap/swapDemo.s
+
+# target to generate assembly for a file
+demo02/demo03_swap/swapDemo.c.s:
+	$(MAKE) -f CMakeFiles/demo05.dir/build.make CMakeFiles/demo05.dir/demo02/demo03_swap/swapDemo.c.s
+.PHONY : demo02/demo03_swap/swapDemo.c.s
+
+demo03/demo01.o: demo03/demo01.c.o
+
+.PHONY : demo03/demo01.o
+
+# target to build an object file
+demo03/demo01.c.o:
+	$(MAKE) -f CMakeFiles/demo06.dir/build.make CMakeFiles/demo06.dir/demo03/demo01.c.o
+.PHONY : demo03/demo01.c.o
+
+demo03/demo01.i: demo03/demo01.c.i
+
+.PHONY : demo03/demo01.i
+
+# target to preprocess a source file
+demo03/demo01.c.i:
+	$(MAKE) -f CMakeFiles/demo06.dir/build.make CMakeFiles/demo06.dir/demo03/demo01.c.i
+.PHONY : demo03/demo01.c.i
+
+demo03/demo01.s: demo03/demo01.c.s
+
+.PHONY : demo03/demo01.s
+
+# target to generate assembly for a file
+demo03/demo01.c.s:
+	$(MAKE) -f CMakeFiles/demo06.dir/build.make CMakeFiles/demo06.dir/demo03/demo01.c.s
+.PHONY : demo03/demo01.c.s
+
+demo03/demo02.o: demo03/demo02.c.o
+
+.PHONY : demo03/demo02.o
+
+# target to build an object file
+demo03/demo02.c.o:
+	$(MAKE) -f CMakeFiles/demo07.dir/build.make CMakeFiles/demo07.dir/demo03/demo02.c.o
+.PHONY : demo03/demo02.c.o
+
+demo03/demo02.i: demo03/demo02.c.i
+
+.PHONY : demo03/demo02.i
+
+# target to preprocess a source file
+demo03/demo02.c.i:
+	$(MAKE) -f CMakeFiles/demo07.dir/build.make CMakeFiles/demo07.dir/demo03/demo02.c.i
+.PHONY : demo03/demo02.c.i
+
+demo03/demo02.s: demo03/demo02.c.s
+
+.PHONY : demo03/demo02.s
+
+# target to generate assembly for a file
+demo03/demo02.c.s:
+	$(MAKE) -f CMakeFiles/demo07.dir/build.make CMakeFiles/demo07.dir/demo03/demo02.c.s
+.PHONY : demo03/demo02.c.s
+
+demo03/demo03.o: demo03/demo03.c.o
+
+.PHONY : demo03/demo03.o
+
+# target to build an object file
+demo03/demo03.c.o:
+	$(MAKE) -f CMakeFiles/demo08.dir/build.make CMakeFiles/demo08.dir/demo03/demo03.c.o
+.PHONY : demo03/demo03.c.o
+
+demo03/demo03.i: demo03/demo03.c.i
+
+.PHONY : demo03/demo03.i
+
+# target to preprocess a source file
+demo03/demo03.c.i:
+	$(MAKE) -f CMakeFiles/demo08.dir/build.make CMakeFiles/demo08.dir/demo03/demo03.c.i
+.PHONY : demo03/demo03.c.i
+
+demo03/demo03.s: demo03/demo03.c.s
+
+.PHONY : demo03/demo03.s
+
+# target to generate assembly for a file
+demo03/demo03.c.s:
+	$(MAKE) -f CMakeFiles/demo08.dir/build.make CMakeFiles/demo08.dir/demo03/demo03.c.s
+.PHONY : demo03/demo03.c.s
+
+demo03/demo04.o: demo03/demo04.c.o
+
+.PHONY : demo03/demo04.o
+
+# target to build an object file
+demo03/demo04.c.o:
+	$(MAKE) -f CMakeFiles/demo09.dir/build.make CMakeFiles/demo09.dir/demo03/demo04.c.o
+.PHONY : demo03/demo04.c.o
+
+demo03/demo04.i: demo03/demo04.c.i
+
+.PHONY : demo03/demo04.i
+
+# target to preprocess a source file
+demo03/demo04.c.i:
+	$(MAKE) -f CMakeFiles/demo09.dir/build.make CMakeFiles/demo09.dir/demo03/demo04.c.i
+.PHONY : demo03/demo04.c.i
+
+demo03/demo04.s: demo03/demo04.c.s
+
+.PHONY : demo03/demo04.s
+
+# target to generate assembly for a file
+demo03/demo04.c.s:
+	$(MAKE) -f CMakeFiles/demo09.dir/build.make CMakeFiles/demo09.dir/demo03/demo04.c.s
+.PHONY : demo03/demo04.c.s
+
+demo03/demo05.o: demo03/demo05.c.o
+
+.PHONY : demo03/demo05.o
+
+# target to build an object file
+demo03/demo05.c.o:
+	$(MAKE) -f CMakeFiles/demo10.dir/build.make CMakeFiles/demo10.dir/demo03/demo05.c.o
+.PHONY : demo03/demo05.c.o
+
+demo03/demo05.i: demo03/demo05.c.i
+
+.PHONY : demo03/demo05.i
+
+# target to preprocess a source file
+demo03/demo05.c.i:
+	$(MAKE) -f CMakeFiles/demo10.dir/build.make CMakeFiles/demo10.dir/demo03/demo05.c.i
+.PHONY : demo03/demo05.c.i
+
+demo03/demo05.s: demo03/demo05.c.s
+
+.PHONY : demo03/demo05.s
+
+# target to generate assembly for a file
+demo03/demo05.c.s:
+	$(MAKE) -f CMakeFiles/demo10.dir/build.make CMakeFiles/demo10.dir/demo03/demo05.c.s
+.PHONY : demo03/demo05.c.s
+
+demo03/demo06.o: demo03/demo06.c.o
+
+.PHONY : demo03/demo06.o
+
+# target to build an object file
+demo03/demo06.c.o:
+	$(MAKE) -f CMakeFiles/demo11.dir/build.make CMakeFiles/demo11.dir/demo03/demo06.c.o
+.PHONY : demo03/demo06.c.o
+
+demo03/demo06.i: demo03/demo06.c.i
+
+.PHONY : demo03/demo06.i
+
+# target to preprocess a source file
+demo03/demo06.c.i:
+	$(MAKE) -f CMakeFiles/demo11.dir/build.make CMakeFiles/demo11.dir/demo03/demo06.c.i
+.PHONY : demo03/demo06.c.i
+
+demo03/demo06.s: demo03/demo06.c.s
+
+.PHONY : demo03/demo06.s
+
+# target to generate assembly for a file
+demo03/demo06.c.s:
+	$(MAKE) -f CMakeFiles/demo11.dir/build.make CMakeFiles/demo11.dir/demo03/demo06.c.s
+.PHONY : demo03/demo06.c.s
+
+demo03/demo07.o: demo03/demo07.c.o
+
+.PHONY : demo03/demo07.o
+
+# target to build an object file
+demo03/demo07.c.o:
+	$(MAKE) -f CMakeFiles/demo12.dir/build.make CMakeFiles/demo12.dir/demo03/demo07.c.o
+.PHONY : demo03/demo07.c.o
+
+demo03/demo07.i: demo03/demo07.c.i
+
+.PHONY : demo03/demo07.i
+
+# target to preprocess a source file
+demo03/demo07.c.i:
+	$(MAKE) -f CMakeFiles/demo12.dir/build.make CMakeFiles/demo12.dir/demo03/demo07.c.i
+.PHONY : demo03/demo07.c.i
+
+demo03/demo07.s: demo03/demo07.c.s
+
+.PHONY : demo03/demo07.s
+
+# target to generate assembly for a file
+demo03/demo07.c.s:
+	$(MAKE) -f CMakeFiles/demo12.dir/build.make CMakeFiles/demo12.dir/demo03/demo07.c.s
+.PHONY : demo03/demo07.c.s
+
+demo04/demo01.o: demo04/demo01.c.o
+
+.PHONY : demo04/demo01.o
+
+# target to build an object file
+demo04/demo01.c.o:
+	$(MAKE) -f CMakeFiles/demo13.dir/build.make CMakeFiles/demo13.dir/demo04/demo01.c.o
+	$(MAKE) -f CMakeFiles/CprogramDemo02.dir/build.make CMakeFiles/CprogramDemo02.dir/demo04/demo01.c.o
+.PHONY : demo04/demo01.c.o
+
+demo04/demo01.i: demo04/demo01.c.i
+
+.PHONY : demo04/demo01.i
+
+# target to preprocess a source file
+demo04/demo01.c.i:
+	$(MAKE) -f CMakeFiles/demo13.dir/build.make CMakeFiles/demo13.dir/demo04/demo01.c.i
+	$(MAKE) -f CMakeFiles/CprogramDemo02.dir/build.make CMakeFiles/CprogramDemo02.dir/demo04/demo01.c.i
+.PHONY : demo04/demo01.c.i
+
+demo04/demo01.s: demo04/demo01.c.s
+
+.PHONY : demo04/demo01.s
+
+# target to generate assembly for a file
+demo04/demo01.c.s:
+	$(MAKE) -f CMakeFiles/demo13.dir/build.make CMakeFiles/demo13.dir/demo04/demo01.c.s
+	$(MAKE) -f CMakeFiles/CprogramDemo02.dir/build.make CMakeFiles/CprogramDemo02.dir/demo04/demo01.c.s
+.PHONY : demo04/demo01.c.s
+
+demo04/demo02.o: demo04/demo02.c.o
+
+.PHONY : demo04/demo02.o
+
+# target to build an object file
+demo04/demo02.c.o:
+	$(MAKE) -f CMakeFiles/demo14.dir/build.make CMakeFiles/demo14.dir/demo04/demo02.c.o
+.PHONY : demo04/demo02.c.o
+
+demo04/demo02.i: demo04/demo02.c.i
+
+.PHONY : demo04/demo02.i
+
+# target to preprocess a source file
+demo04/demo02.c.i:
+	$(MAKE) -f CMakeFiles/demo14.dir/build.make CMakeFiles/demo14.dir/demo04/demo02.c.i
+.PHONY : demo04/demo02.c.i
+
+demo04/demo02.s: demo04/demo02.c.s
+
+.PHONY : demo04/demo02.s
+
+# target to generate assembly for a file
+demo04/demo02.c.s:
+	$(MAKE) -f CMakeFiles/demo14.dir/build.make CMakeFiles/demo14.dir/demo04/demo02.c.s
+.PHONY : demo04/demo02.c.s
+
+demo04/demo03.o: demo04/demo03.c.o
+
+.PHONY : demo04/demo03.o
+
+# target to build an object file
+demo04/demo03.c.o:
+	$(MAKE) -f CMakeFiles/demo15.dir/build.make CMakeFiles/demo15.dir/demo04/demo03.c.o
+.PHONY : demo04/demo03.c.o
+
+demo04/demo03.i: demo04/demo03.c.i
+
+.PHONY : demo04/demo03.i
+
+# target to preprocess a source file
+demo04/demo03.c.i:
+	$(MAKE) -f CMakeFiles/demo15.dir/build.make CMakeFiles/demo15.dir/demo04/demo03.c.i
+.PHONY : demo04/demo03.c.i
+
+demo04/demo03.s: demo04/demo03.c.s
+
+.PHONY : demo04/demo03.s
+
+# target to generate assembly for a file
+demo04/demo03.c.s:
+	$(MAKE) -f CMakeFiles/demo15.dir/build.make CMakeFiles/demo15.dir/demo04/demo03.c.s
+.PHONY : demo04/demo03.c.s
+
+demo04/demo04.o: demo04/demo04.c.o
+
+.PHONY : demo04/demo04.o
+
+# target to build an object file
+demo04/demo04.c.o:
+	$(MAKE) -f CMakeFiles/demo16.dir/build.make CMakeFiles/demo16.dir/demo04/demo04.c.o
+.PHONY : demo04/demo04.c.o
+
+demo04/demo04.i: demo04/demo04.c.i
+
+.PHONY : demo04/demo04.i
+
+# target to preprocess a source file
+demo04/demo04.c.i:
+	$(MAKE) -f CMakeFiles/demo16.dir/build.make CMakeFiles/demo16.dir/demo04/demo04.c.i
+.PHONY : demo04/demo04.c.i
+
+demo04/demo04.s: demo04/demo04.c.s
+
+.PHONY : demo04/demo04.s
+
+# target to generate assembly for a file
+demo04/demo04.c.s:
+	$(MAKE) -f CMakeFiles/demo16.dir/build.make CMakeFiles/demo16.dir/demo04/demo04.c.s
+.PHONY : demo04/demo04.c.s
+
+demo04/demo05.o: demo04/demo05.c.o
+
+.PHONY : demo04/demo05.o
+
+# target to build an object file
+demo04/demo05.c.o:
+	$(MAKE) -f CMakeFiles/demo17.dir/build.make CMakeFiles/demo17.dir/demo04/demo05.c.o
+.PHONY : demo04/demo05.c.o
+
+demo04/demo05.i: demo04/demo05.c.i
+
+.PHONY : demo04/demo05.i
+
+# target to preprocess a source file
+demo04/demo05.c.i:
+	$(MAKE) -f CMakeFiles/demo17.dir/build.make CMakeFiles/demo17.dir/demo04/demo05.c.i
+.PHONY : demo04/demo05.c.i
+
+demo04/demo05.s: demo04/demo05.c.s
+
+.PHONY : demo04/demo05.s
+
+# target to generate assembly for a file
+demo04/demo05.c.s:
+	$(MAKE) -f CMakeFiles/demo17.dir/build.make CMakeFiles/demo17.dir/demo04/demo05.c.s
+.PHONY : demo04/demo05.c.s
+
+demo05/demo01.o: demo05/demo01.c.o
+
+.PHONY : demo05/demo01.o
+
+# target to build an object file
+demo05/demo01.c.o:
+	$(MAKE) -f CMakeFiles/demo18.dir/build.make CMakeFiles/demo18.dir/demo05/demo01.c.o
+.PHONY : demo05/demo01.c.o
+
+demo05/demo01.i: demo05/demo01.c.i
+
+.PHONY : demo05/demo01.i
+
+# target to preprocess a source file
+demo05/demo01.c.i:
+	$(MAKE) -f CMakeFiles/demo18.dir/build.make CMakeFiles/demo18.dir/demo05/demo01.c.i
+.PHONY : demo05/demo01.c.i
+
+demo05/demo01.s: demo05/demo01.c.s
+
+.PHONY : demo05/demo01.s
+
+# target to generate assembly for a file
+demo05/demo01.c.s:
+	$(MAKE) -f CMakeFiles/demo18.dir/build.make CMakeFiles/demo18.dir/demo05/demo01.c.s
+.PHONY : demo05/demo01.c.s
+
+demo05/demo02.o: demo05/demo02.c.o
+
+.PHONY : demo05/demo02.o
+
+# target to build an object file
+demo05/demo02.c.o:
+	$(MAKE) -f CMakeFiles/demo19.dir/build.make CMakeFiles/demo19.dir/demo05/demo02.c.o
+.PHONY : demo05/demo02.c.o
+
+demo05/demo02.i: demo05/demo02.c.i
+
+.PHONY : demo05/demo02.i
+
+# target to preprocess a source file
+demo05/demo02.c.i:
+	$(MAKE) -f CMakeFiles/demo19.dir/build.make CMakeFiles/demo19.dir/demo05/demo02.c.i
+.PHONY : demo05/demo02.c.i
+
+demo05/demo02.s: demo05/demo02.c.s
+
+.PHONY : demo05/demo02.s
+
+# target to generate assembly for a file
+demo05/demo02.c.s:
+	$(MAKE) -f CMakeFiles/demo19.dir/build.make CMakeFiles/demo19.dir/demo05/demo02.c.s
+.PHONY : demo05/demo02.c.s
+
+demo05/demo03.o: demo05/demo03.c.o
+
+.PHONY : demo05/demo03.o
+
+# target to build an object file
+demo05/demo03.c.o:
+	$(MAKE) -f CMakeFiles/demo20.dir/build.make CMakeFiles/demo20.dir/demo05/demo03.c.o
+.PHONY : demo05/demo03.c.o
+
+demo05/demo03.i: demo05/demo03.c.i
+
+.PHONY : demo05/demo03.i
+
+# target to preprocess a source file
+demo05/demo03.c.i:
+	$(MAKE) -f CMakeFiles/demo20.dir/build.make CMakeFiles/demo20.dir/demo05/demo03.c.i
+.PHONY : demo05/demo03.c.i
+
+demo05/demo03.s: demo05/demo03.c.s
+
+.PHONY : demo05/demo03.s
+
+# target to generate assembly for a file
+demo05/demo03.c.s:
+	$(MAKE) -f CMakeFiles/demo20.dir/build.make CMakeFiles/demo20.dir/demo05/demo03.c.s
+.PHONY : demo05/demo03.c.s
+
+demo05/demo04.o: demo05/demo04.c.o
+
+.PHONY : demo05/demo04.o
+
+# target to build an object file
+demo05/demo04.c.o:
+	$(MAKE) -f CMakeFiles/demo21.dir/build.make CMakeFiles/demo21.dir/demo05/demo04.c.o
+.PHONY : demo05/demo04.c.o
+
+demo05/demo04.i: demo05/demo04.c.i
+
+.PHONY : demo05/demo04.i
+
+# target to preprocess a source file
+demo05/demo04.c.i:
+	$(MAKE) -f CMakeFiles/demo21.dir/build.make CMakeFiles/demo21.dir/demo05/demo04.c.i
+.PHONY : demo05/demo04.c.i
+
+demo05/demo04.s: demo05/demo04.c.s
+
+.PHONY : demo05/demo04.s
+
+# target to generate assembly for a file
+demo05/demo04.c.s:
+	$(MAKE) -f CMakeFiles/demo21.dir/build.make CMakeFiles/demo21.dir/demo05/demo04.c.s
+.PHONY : demo05/demo04.c.s
+
+demo05/demo05.o: demo05/demo05.c.o
+
+.PHONY : demo05/demo05.o
+
+# target to build an object file
+demo05/demo05.c.o:
+	$(MAKE) -f CMakeFiles/demo22.dir/build.make CMakeFiles/demo22.dir/demo05/demo05.c.o
+.PHONY : demo05/demo05.c.o
+
+demo05/demo05.i: demo05/demo05.c.i
+
+.PHONY : demo05/demo05.i
+
+# target to preprocess a source file
+demo05/demo05.c.i:
+	$(MAKE) -f CMakeFiles/demo22.dir/build.make CMakeFiles/demo22.dir/demo05/demo05.c.i
+.PHONY : demo05/demo05.c.i
+
+demo05/demo05.s: demo05/demo05.c.s
+
+.PHONY : demo05/demo05.s
+
+# target to generate assembly for a file
+demo05/demo05.c.s:
+	$(MAKE) -f CMakeFiles/demo22.dir/build.make CMakeFiles/demo22.dir/demo05/demo05.c.s
+.PHONY : demo05/demo05.c.s
+
+demo05/demo06.o: demo05/demo06.c.o
+
+.PHONY : demo05/demo06.o
+
+# target to build an object file
+demo05/demo06.c.o:
+	$(MAKE) -f CMakeFiles/demo23.dir/build.make CMakeFiles/demo23.dir/demo05/demo06.c.o
+.PHONY : demo05/demo06.c.o
+
+demo05/demo06.i: demo05/demo06.c.i
+
+.PHONY : demo05/demo06.i
+
+# target to preprocess a source file
+demo05/demo06.c.i:
+	$(MAKE) -f CMakeFiles/demo23.dir/build.make CMakeFiles/demo23.dir/demo05/demo06.c.i
+.PHONY : demo05/demo06.c.i
+
+demo05/demo06.s: demo05/demo06.c.s
+
+.PHONY : demo05/demo06.s
+
+# target to generate assembly for a file
+demo05/demo06.c.s:
+	$(MAKE) -f CMakeFiles/demo23.dir/build.make CMakeFiles/demo23.dir/demo05/demo06.c.s
+.PHONY : demo05/demo06.c.s
+
+demo05/demo07.o: demo05/demo07.c.o
+
+.PHONY : demo05/demo07.o
+
+# target to build an object file
+demo05/demo07.c.o:
+	$(MAKE) -f CMakeFiles/demo24.dir/build.make CMakeFiles/demo24.dir/demo05/demo07.c.o
+.PHONY : demo05/demo07.c.o
+
+demo05/demo07.i: demo05/demo07.c.i
+
+.PHONY : demo05/demo07.i
+
+# target to preprocess a source file
+demo05/demo07.c.i:
+	$(MAKE) -f CMakeFiles/demo24.dir/build.make CMakeFiles/demo24.dir/demo05/demo07.c.i
+.PHONY : demo05/demo07.c.i
+
+demo05/demo07.s: demo05/demo07.c.s
+
+.PHONY : demo05/demo07.s
+
+# target to generate assembly for a file
+demo05/demo07.c.s:
+	$(MAKE) -f CMakeFiles/demo24.dir/build.make CMakeFiles/demo24.dir/demo05/demo07.c.s
+.PHONY : demo05/demo07.c.s
+
+demo06/demo01.o: demo06/demo01.c.o
+
+.PHONY : demo06/demo01.o
+
+# target to build an object file
+demo06/demo01.c.o:
+	$(MAKE) -f CMakeFiles/demo25.dir/build.make CMakeFiles/demo25.dir/demo06/demo01.c.o
+	$(MAKE) -f CMakeFiles/CprogramDemo02.dir/build.make CMakeFiles/CprogramDemo02.dir/demo06/demo01.c.o
+.PHONY : demo06/demo01.c.o
+
+demo06/demo01.i: demo06/demo01.c.i
+
+.PHONY : demo06/demo01.i
+
+# target to preprocess a source file
+demo06/demo01.c.i:
+	$(MAKE) -f CMakeFiles/demo25.dir/build.make CMakeFiles/demo25.dir/demo06/demo01.c.i
+	$(MAKE) -f CMakeFiles/CprogramDemo02.dir/build.make CMakeFiles/CprogramDemo02.dir/demo06/demo01.c.i
+.PHONY : demo06/demo01.c.i
+
+demo06/demo01.s: demo06/demo01.c.s
+
+.PHONY : demo06/demo01.s
+
+# target to generate assembly for a file
+demo06/demo01.c.s:
+	$(MAKE) -f CMakeFiles/demo25.dir/build.make CMakeFiles/demo25.dir/demo06/demo01.c.s
+	$(MAKE) -f CMakeFiles/CprogramDemo02.dir/build.make CMakeFiles/CprogramDemo02.dir/demo06/demo01.c.s
+.PHONY : demo06/demo01.c.s
+
+demo06/demo02.o: demo06/demo02.c.o
+
+.PHONY : demo06/demo02.o
+
+# target to build an object file
+demo06/demo02.c.o:
+	$(MAKE) -f CMakeFiles/demo26.dir/build.make CMakeFiles/demo26.dir/demo06/demo02.c.o
+.PHONY : demo06/demo02.c.o
+
+demo06/demo02.i: demo06/demo02.c.i
+
+.PHONY : demo06/demo02.i
+
+# target to preprocess a source file
+demo06/demo02.c.i:
+	$(MAKE) -f CMakeFiles/demo26.dir/build.make CMakeFiles/demo26.dir/demo06/demo02.c.i
+.PHONY : demo06/demo02.c.i
+
+demo06/demo02.s: demo06/demo02.c.s
+
+.PHONY : demo06/demo02.s
+
+# target to generate assembly for a file
+demo06/demo02.c.s:
+	$(MAKE) -f CMakeFiles/demo26.dir/build.make CMakeFiles/demo26.dir/demo06/demo02.c.s
+.PHONY : demo06/demo02.c.s
+
+demo06/demo03.o: demo06/demo03.c.o
+
+.PHONY : demo06/demo03.o
+
+# target to build an object file
+demo06/demo03.c.o:
+	$(MAKE) -f CMakeFiles/demo27.dir/build.make CMakeFiles/demo27.dir/demo06/demo03.c.o
+.PHONY : demo06/demo03.c.o
+
+demo06/demo03.i: demo06/demo03.c.i
+
+.PHONY : demo06/demo03.i
+
+# target to preprocess a source file
+demo06/demo03.c.i:
+	$(MAKE) -f CMakeFiles/demo27.dir/build.make CMakeFiles/demo27.dir/demo06/demo03.c.i
+.PHONY : demo06/demo03.c.i
+
+demo06/demo03.s: demo06/demo03.c.s
+
+.PHONY : demo06/demo03.s
+
+# target to generate assembly for a file
+demo06/demo03.c.s:
+	$(MAKE) -f CMakeFiles/demo27.dir/build.make CMakeFiles/demo27.dir/demo06/demo03.c.s
+.PHONY : demo06/demo03.c.s
+
+demo06/demo04.o: demo06/demo04.c.o
+
+.PHONY : demo06/demo04.o
+
+# target to build an object file
+demo06/demo04.c.o:
+	$(MAKE) -f CMakeFiles/demo28.dir/build.make CMakeFiles/demo28.dir/demo06/demo04.c.o
+.PHONY : demo06/demo04.c.o
+
+demo06/demo04.i: demo06/demo04.c.i
+
+.PHONY : demo06/demo04.i
+
+# target to preprocess a source file
+demo06/demo04.c.i:
+	$(MAKE) -f CMakeFiles/demo28.dir/build.make CMakeFiles/demo28.dir/demo06/demo04.c.i
+.PHONY : demo06/demo04.c.i
+
+demo06/demo04.s: demo06/demo04.c.s
+
+.PHONY : demo06/demo04.s
+
+# target to generate assembly for a file
+demo06/demo04.c.s:
+	$(MAKE) -f CMakeFiles/demo28.dir/build.make CMakeFiles/demo28.dir/demo06/demo04.c.s
+.PHONY : demo06/demo04.c.s
+
+demo06/demo05.o: demo06/demo05.c.o
+
+.PHONY : demo06/demo05.o
+
+# target to build an object file
+demo06/demo05.c.o:
+	$(MAKE) -f CMakeFiles/demo29.dir/build.make CMakeFiles/demo29.dir/demo06/demo05.c.o
+.PHONY : demo06/demo05.c.o
+
+demo06/demo05.i: demo06/demo05.c.i
+
+.PHONY : demo06/demo05.i
+
+# target to preprocess a source file
+demo06/demo05.c.i:
+	$(MAKE) -f CMakeFiles/demo29.dir/build.make CMakeFiles/demo29.dir/demo06/demo05.c.i
+.PHONY : demo06/demo05.c.i
+
+demo06/demo05.s: demo06/demo05.c.s
+
+.PHONY : demo06/demo05.s
+
+# target to generate assembly for a file
+demo06/demo05.c.s:
+	$(MAKE) -f CMakeFiles/demo29.dir/build.make CMakeFiles/demo29.dir/demo06/demo05.c.s
+.PHONY : demo06/demo05.c.s
+
+demo06/demo06.o: demo06/demo06.c.o
+
+.PHONY : demo06/demo06.o
+
+# target to build an object file
+demo06/demo06.c.o:
+	$(MAKE) -f CMakeFiles/demo30.dir/build.make CMakeFiles/demo30.dir/demo06/demo06.c.o
+.PHONY : demo06/demo06.c.o
+
+demo06/demo06.i: demo06/demo06.c.i
+
+.PHONY : demo06/demo06.i
+
+# target to preprocess a source file
+demo06/demo06.c.i:
+	$(MAKE) -f CMakeFiles/demo30.dir/build.make CMakeFiles/demo30.dir/demo06/demo06.c.i
+.PHONY : demo06/demo06.c.i
+
+demo06/demo06.s: demo06/demo06.c.s
+
+.PHONY : demo06/demo06.s
+
+# target to generate assembly for a file
+demo06/demo06.c.s:
+	$(MAKE) -f CMakeFiles/demo30.dir/build.make CMakeFiles/demo30.dir/demo06/demo06.c.s
+.PHONY : demo06/demo06.c.s
+
+demo06/demo07.o: demo06/demo07.c.o
+
+.PHONY : demo06/demo07.o
+
+# target to build an object file
+demo06/demo07.c.o:
+	$(MAKE) -f CMakeFiles/demo31.dir/build.make CMakeFiles/demo31.dir/demo06/demo07.c.o
+.PHONY : demo06/demo07.c.o
+
+demo06/demo07.i: demo06/demo07.c.i
+
+.PHONY : demo06/demo07.i
+
+# target to preprocess a source file
+demo06/demo07.c.i:
+	$(MAKE) -f CMakeFiles/demo31.dir/build.make CMakeFiles/demo31.dir/demo06/demo07.c.i
+.PHONY : demo06/demo07.c.i
+
+demo06/demo07.s: demo06/demo07.c.s
+
+.PHONY : demo06/demo07.s
+
+# target to generate assembly for a file
+demo06/demo07.c.s:
+	$(MAKE) -f CMakeFiles/demo31.dir/build.make CMakeFiles/demo31.dir/demo06/demo07.c.s
+.PHONY : demo06/demo07.c.s
+
+demo06/demo08.o: demo06/demo08.c.o
+
+.PHONY : demo06/demo08.o
+
+# target to build an object file
+demo06/demo08.c.o:
+	$(MAKE) -f CMakeFiles/demo32.dir/build.make CMakeFiles/demo32.dir/demo06/demo08.c.o
+.PHONY : demo06/demo08.c.o
+
+demo06/demo08.i: demo06/demo08.c.i
+
+.PHONY : demo06/demo08.i
+
+# target to preprocess a source file
+demo06/demo08.c.i:
+	$(MAKE) -f CMakeFiles/demo32.dir/build.make CMakeFiles/demo32.dir/demo06/demo08.c.i
+.PHONY : demo06/demo08.c.i
+
+demo06/demo08.s: demo06/demo08.c.s
+
+.PHONY : demo06/demo08.s
+
+# target to generate assembly for a file
+demo06/demo08.c.s:
+	$(MAKE) -f CMakeFiles/demo32.dir/build.make CMakeFiles/demo32.dir/demo06/demo08.c.s
+.PHONY : demo06/demo08.c.s
+
+demo06/demo09.o: demo06/demo09.c.o
+
+.PHONY : demo06/demo09.o
+
+# target to build an object file
+demo06/demo09.c.o:
+	$(MAKE) -f CMakeFiles/demo33.dir/build.make CMakeFiles/demo33.dir/demo06/demo09.c.o
+.PHONY : demo06/demo09.c.o
+
+demo06/demo09.i: demo06/demo09.c.i
+
+.PHONY : demo06/demo09.i
+
+# target to preprocess a source file
+demo06/demo09.c.i:
+	$(MAKE) -f CMakeFiles/demo33.dir/build.make CMakeFiles/demo33.dir/demo06/demo09.c.i
+.PHONY : demo06/demo09.c.i
+
+demo06/demo09.s: demo06/demo09.c.s
+
+.PHONY : demo06/demo09.s
+
+# target to generate assembly for a file
+demo06/demo09.c.s:
+	$(MAKE) -f CMakeFiles/demo33.dir/build.make CMakeFiles/demo33.dir/demo06/demo09.c.s
+.PHONY : demo06/demo09.c.s
 
 main.o: main.c.o
 
@@ -156,9 +1509,144 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
+	@echo "... demo33"
+	@echo "... demo32"
+	@echo "... demo31"
+	@echo "... demo30"
+	@echo "... demo28"
+	@echo "... demo27"
+	@echo "... demo26"
+	@echo "... demo23"
+	@echo "... demo19"
+	@echo "... demo17"
+	@echo "... demo01"
+	@echo "... demo12"
+	@echo "... demo20"
+	@echo "... demo15"
+	@echo "... demo14"
+	@echo "... demo24"
+	@echo "... demo13"
+	@echo "... demo02"
+	@echo "... demo22"
+	@echo "... demo06"
+	@echo "... demo11"
+	@echo "... demo10"
+	@echo "... demo25"
+	@echo "... demo08"
+	@echo "... demo05"
 	@echo "... edit_cache"
+	@echo "... demo21"
+	@echo "... demo04"
+	@echo "... demo16"
+	@echo "... demo09"
+	@echo "... rebuild_cache"
+	@echo "... demo03"
+	@echo "... demo18"
+	@echo "... demo07"
+	@echo "... demo29"
 	@echo "... CprogramDemo02"
+	@echo "... demo01/demo01.o"
+	@echo "... demo01/demo01.i"
+	@echo "... demo01/demo01.s"
+	@echo "... demo01/demo02.o"
+	@echo "... demo01/demo02.i"
+	@echo "... demo01/demo02.s"
+	@echo "... demo01/demo22.o"
+	@echo "... demo01/demo22.i"
+	@echo "... demo01/demo22.s"
+	@echo "... demo02/demo01.o"
+	@echo "... demo02/demo01.i"
+	@echo "... demo02/demo01.s"
+	@echo "... demo02/demo02.o"
+	@echo "... demo02/demo02.i"
+	@echo "... demo02/demo02.s"
+	@echo "... demo02/demo03_swap/swapDemo.o"
+	@echo "... demo02/demo03_swap/swapDemo.i"
+	@echo "... demo02/demo03_swap/swapDemo.s"
+	@echo "... demo03/demo01.o"
+	@echo "... demo03/demo01.i"
+	@echo "... demo03/demo01.s"
+	@echo "... demo03/demo02.o"
+	@echo "... demo03/demo02.i"
+	@echo "... demo03/demo02.s"
+	@echo "... demo03/demo03.o"
+	@echo "... demo03/demo03.i"
+	@echo "... demo03/demo03.s"
+	@echo "... demo03/demo04.o"
+	@echo "... demo03/demo04.i"
+	@echo "... demo03/demo04.s"
+	@echo "... demo03/demo05.o"
+	@echo "... demo03/demo05.i"
+	@echo "... demo03/demo05.s"
+	@echo "... demo03/demo06.o"
+	@echo "... demo03/demo06.i"
+	@echo "... demo03/demo06.s"
+	@echo "... demo03/demo07.o"
+	@echo "... demo03/demo07.i"
+	@echo "... demo03/demo07.s"
+	@echo "... demo04/demo01.o"
+	@echo "... demo04/demo01.i"
+	@echo "... demo04/demo01.s"
+	@echo "... demo04/demo02.o"
+	@echo "... demo04/demo02.i"
+	@echo "... demo04/demo02.s"
+	@echo "... demo04/demo03.o"
+	@echo "... demo04/demo03.i"
+	@echo "... demo04/demo03.s"
+	@echo "... demo04/demo04.o"
+	@echo "... demo04/demo04.i"
+	@echo "... demo04/demo04.s"
+	@echo "... demo04/demo05.o"
+	@echo "... demo04/demo05.i"
+	@echo "... demo04/demo05.s"
+	@echo "... demo05/demo01.o"
+	@echo "... demo05/demo01.i"
+	@echo "... demo05/demo01.s"
+	@echo "... demo05/demo02.o"
+	@echo "... demo05/demo02.i"
+	@echo "... demo05/demo02.s"
+	@echo "... demo05/demo03.o"
+	@echo "... demo05/demo03.i"
+	@echo "... demo05/demo03.s"
+	@echo "... demo05/demo04.o"
+	@echo "... demo05/demo04.i"
+	@echo "... demo05/demo04.s"
+	@echo "... demo05/demo05.o"
+	@echo "... demo05/demo05.i"
+	@echo "... demo05/demo05.s"
+	@echo "... demo05/demo06.o"
+	@echo "... demo05/demo06.i"
+	@echo "... demo05/demo06.s"
+	@echo "... demo05/demo07.o"
+	@echo "... demo05/demo07.i"
+	@echo "... demo05/demo07.s"
+	@echo "... demo06/demo01.o"
+	@echo "... demo06/demo01.i"
+	@echo "... demo06/demo01.s"
+	@echo "... demo06/demo02.o"
+	@echo "... demo06/demo02.i"
+	@echo "... demo06/demo02.s"
+	@echo "... demo06/demo03.o"
+	@echo "... demo06/demo03.i"
+	@echo "... demo06/demo03.s"
+	@echo "... demo06/demo04.o"
+	@echo "... demo06/demo04.i"
+	@echo "... demo06/demo04.s"
+	@echo "... demo06/demo05.o"
+	@echo "... demo06/demo05.i"
+	@echo "... demo06/demo05.s"
+	@echo "... demo06/demo06.o"
+	@echo "... demo06/demo06.i"
+	@echo "... demo06/demo06.s"
+	@echo "... demo06/demo07.o"
+	@echo "... demo06/demo07.i"
+	@echo "... demo06/demo07.s"
+	@echo "... demo06/demo08.o"
+	@echo "... demo06/demo08.i"
+	@echo "... demo06/demo08.s"
+	@echo "... demo06/demo09.o"
+	@echo "... demo06/demo09.i"
+	@echo "... demo06/demo09.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

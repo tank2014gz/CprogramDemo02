@@ -17,11 +17,1001 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="demo33">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo33" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo33"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo33/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo33" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo33/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo32">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo32"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo32/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo32/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo31">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo31" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo31"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo31/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo31" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo31/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo30">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo30" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo30"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo30/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo30" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo30/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo28">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo28"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo28/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo28/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo27">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo27"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo27/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo27/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo26">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo26"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo26/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo26/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo23">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo23"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo23/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo23/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo19">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo19"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo19/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo19/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo17">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo17"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo17/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo17/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo01">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo01/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo12">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo12/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo20">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo20"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo20/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo20/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo15">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo15"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo15/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo15/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo14">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo14"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo14/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo14/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo24">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo24"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo24/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo24/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo13">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo13"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo13/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo13/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo02">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo02/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo22">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo22"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo22/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo22/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo06">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo06/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo11">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo11/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo11/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo10">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo10/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo25">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo25" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo25"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo25/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo25" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo25/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo08">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo08"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo08/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo05">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo05/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo05/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -32,6 +1022,336 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo21">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo21"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo21/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo21/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo04">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo04/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo16">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo16"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo16/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo16/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo09">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo09"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo09/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo09/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo03">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo03/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo18">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo18"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo18/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo18/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo07">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo07"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo07/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo07/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo29">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo29"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo29/fast">
+				<Option output="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/demo29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo29/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuliyan/Documents/CprogramDemo02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -78,7 +1398,114 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo01/demo01.c">
+			<Option target="demo01"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo01/demo02.c">
+			<Option target="demo02"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo01/demo22.c">
+			<Option target="demo02"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo02/demo01.c">
+			<Option target="demo03"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo02/demo02.c">
+			<Option target="demo04"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo02/demo03_swap/swapDemo.c">
+			<Option target="demo05"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo03/demo01.c">
+			<Option target="demo06"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo03/demo02.c">
+			<Option target="demo07"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo03/demo03.c">
+			<Option target="demo08"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo03/demo04.c">
+			<Option target="demo09"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo03/demo05.c">
+			<Option target="demo10"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo03/demo06.c">
+			<Option target="demo11"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo03/demo07.c">
+			<Option target="demo12"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo04/demo01.c">
+			<Option target="demo13"/>
+			<Option target="CprogramDemo02"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo04/demo02.c">
+			<Option target="demo14"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo04/demo03.c">
+			<Option target="demo15"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo04/demo04.c">
+			<Option target="demo16"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo04/demo05.c">
+			<Option target="demo17"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo05/demo01.c">
+			<Option target="demo18"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo05/demo02.c">
+			<Option target="demo19"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo05/demo03.c">
+			<Option target="demo20"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo05/demo04.c">
+			<Option target="demo21"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo05/demo05.c">
+			<Option target="demo22"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo05/demo06.c">
+			<Option target="demo23"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo05/demo07.c">
+			<Option target="demo24"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo01.c">
+			<Option target="demo25"/>
+			<Option target="CprogramDemo02"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo02.c">
+			<Option target="demo26"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo03.c">
+			<Option target="demo27"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo04.c">
+			<Option target="demo28"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo05.c">
+			<Option target="demo29"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo06.c">
+			<Option target="demo30"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo07.c">
+			<Option target="demo31"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo08.c">
+			<Option target="demo32"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/demo06/demo09.c">
+			<Option target="demo33"/>
+		</Unit>
 		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/main.c">
+			<Option target="CprogramDemo02"/>
+		</Unit>
+		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/main.h">
 			<Option target="CprogramDemo02"/>
 		</Unit>
 		<Unit filename="/Users/yuliyan/Documents/CprogramDemo02/CMakeLists.txt">
